@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from . import views as cv
 
 urlpatterns = [
-    path('child_1/',views.show)
+    path('child_1/', cv.show)
 ]
