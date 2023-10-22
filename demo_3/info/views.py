@@ -8,6 +8,6 @@ def details(request):
     age = 27
     gender = 'Male'
 
-    mydict = {'name':name, 'age':age, 'gender':gender}
+    mydict = {'name':name, 'age':age, 'gender':gender,'address':''}
 
     return render(request,'info/index.html',context=mydict)
