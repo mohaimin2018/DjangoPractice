@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 def details(request):
 
-    name = 'Mohai'
+    name = 'Mohai Minul Islam'
     age = 27
     gender = 'Male'
 
